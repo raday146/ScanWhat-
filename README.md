@@ -1,2 +1,2 @@
 # ScanWhat?
-Port scanner and ping scanner includes features for receiving local network information
+Port scanner&Ping scanner includes features for receiving local network information 
