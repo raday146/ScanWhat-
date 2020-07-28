@@ -17,7 +17,6 @@ class build_scanner(Tk):
 The class inherits from TK, which is a part of the tkinter library, thereby enabling the creation of a GUI for
 the program and containing the construction process and a variety of methods that offer customer-level service.
     """
-
     def __init__(self):
         """
         Our constructor is responsible for building the GUI and after building the GUI Initialize the components
@@ -83,9 +82,12 @@ the program and containing the construction process and a variety of methods tha
             if self.check_ip(self._text_content.get()):
                 try:
                     self._start_range = simpledialog.askstring("Message", "Enter start range: ")
+                    if int(self._start_range) > 255 or int(self._start_range) < 0:
+                        messagebox.showinfo('Message', "start range can't be less then 0 and higher then 255")
+                        return
                     self._end_range = simpledialog.askstring("Message", "Enter end range: ")
-                    if int(self._start_range) > int(self._end_range):
-                        messagebox.showinfo('Message', "start range can't be high then end range")
+                    if int(self._end_range) < int(self._start_range) or int(self._end_range) > 255:
+                        messagebox.showinfo('Message', "end range must be higher then start range and less then 255")
                     else:
                         if self.build_handshake():
                             self.result_screen()
@@ -149,9 +151,12 @@ the program and containing the construction process and a variety of methods tha
             else:
                 messagebox.showinfo("Message", "Enter target!")
         except socket.gaierror or socket.error as ev:
-            messagebox.showerror("Error", "Invalid target:  {}.".format(ev))
+            self.scan_btn.config(state='normal')
+            messagebox.showerror("Error", "Invalid target:  {}, Enter a host or IP address.".format(ev))
         except UnicodeError as er:
-            messagebox.showerror("Error", "Invalid target:  {}.".format(er))
+            self.scan_btn.config(state='normal')
+            messagebox.showerror("Error", "Invalid target:  {}, Enter a host or IP address.".format(er))
+
 
     def check_ip(self, ip_addr):
         """
