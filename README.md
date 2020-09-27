@@ -1,12 +1,14 @@
-## ScanWhat?
-Port scanner&Ping scanner includes features for receiving local network information.
+### ScanWhat?
+    Port scanner&Ping scanner includes features for receiving local network information.
 
 # Contents
-* Collections: ' List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator.'
-* Types: ' String, Regular_Exp, Format, Numbers, Combinatorics, Datetime. ' 
-* System: '  Exit, Print, Input, Command_Line_Arguments, Open, Path, OS_Commands.  Treeview'
-* Advanced:' Threading, Socket, Metaprograming. '
-*  Libraries: ' time,  webbrowser, Queue, tkinter, ipaddress, os,'
+
+*  Collections: ` List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator.`
+*  Types: ` String, Regular_Exp, Format, Numbers, Combinatorics, Datetime.`
+*  System: ` Exit, Print, Input, Command_Line_Arguments, Open, Path, OS_Commands.  Treeview`
+*  Advanced: `Threading, Socket, Metaprograming. `
+*  Libraries: `time,  webbrowser, Queue, tkinter, ipaddress, os,`
+
 
 # Setup
  After downloading the file you must first have Python, version 3.7 or higher, installed on your computer in order to run the file and simply run the file in the normal   
