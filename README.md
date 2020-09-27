@@ -3,7 +3,7 @@
 
 # Contents
 
-*  Collections: ` List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator.`
+*  Collections: ` List, Dictionary, Set, Tuple, Range, Enumerate, Iterator, Generator, Labels, Combobox, Entry, StringVar.`
 *  Types: ` String, Regular_Exp, Format, Numbers, Combinatorics, Datetime.`
 *  System: ` Exit, Print, Input, Command_Line_Arguments, Open, Path, OS_Commands.  Treeview`
 *  Advanced: `Threading, Socket, Metaprograming. `
