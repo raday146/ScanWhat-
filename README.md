@@ -9,6 +9,8 @@
 *  Advanced: `Threading, Socket, Metaprograming. `
 *  Libraries: `time,  webbrowser, Queue, tkinter, ipaddress, os,`
 
+# Status
+   This project is for educational purposes and personal curiosity. :slightly_smiling_face:
 
 # Setup
  After downloading the file you must first have Python, version 3.7 or higher, installed on your computer in order to run the file and simply run the file in the normal   
