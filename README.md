@@ -21,12 +21,12 @@
 
 ##### :dart: :space_invader:
 
-<img src=https://user-images.githubusercontent.com/57037365/114308128-69ec0680-9aeb-11eb-89d1-6fe166e2f3e4.jpg width="600" height="500">
+<img src=https://user-images.githubusercontent.com/57037365/114308128-69ec0680-9aeb-11eb-89d1-6fe166e2f3e4.jpg width="500" height="400">
 
 
 ##### :ghost:
 
-<img src=https://user-images.githubusercontent.com/57037365/114308391-76249380-9aec-11eb-9952-d07982ddbcf8.jpg width="600" height="500">
+<img src=https://user-images.githubusercontent.com/57037365/114308391-76249380-9aec-11eb-9952-d07982ddbcf8.jpg width="500" height="400">
 
 
 
